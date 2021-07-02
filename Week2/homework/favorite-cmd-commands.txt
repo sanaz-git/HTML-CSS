@@ -1,0 +1,7 @@
+cd : changing directory 
+
+touch (file name) : create a new and empty file.
+
+mkdir(filename) : create a folder or directory.
+
+code . : Open directory in default code editor.
