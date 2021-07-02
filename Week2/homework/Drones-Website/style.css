@@ -7,11 +7,11 @@
   body{
       background-color: #222C35;
       color:black ;
-      margin-left: 50px;
-      margin-right: 50px;
+      margin-left: 70px;
+      margin-right: 70px; 
   }
 
-  h1{
+  h1{ 
     border: 3px solid #6D747A;
     background-color: #6D747A; 
     font-size: 40px;
@@ -19,6 +19,7 @@
     text-align: center;
     padding: 35px;
     margin-bottom: 5px;
+    
   }
 
   h2{
@@ -70,7 +71,7 @@
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 24%;
+    width: 23%;
     height: 450px;
     margin: 5px 5px 5px 5px;
   }
@@ -94,7 +95,7 @@
 
  .grid-floats
  .grid-item:first-child{
-     width: 49%;
+     width: 47%;
  }
      /* Float */
 
@@ -105,7 +106,7 @@
 
  .grid-flex
  .grid-item:first-child{
-     width: 49%;
+     width: 47%;
  }
 
 
@@ -147,7 +148,7 @@
 }
 
 
-@media only screen and (min-width:601px) and (max-width:1023px){
+@media only screen and (min-width:601px) and (max-width:1024px){
   h3{
     font-size: 18px;
   }
@@ -186,8 +187,9 @@
      width: 47%;
      height: 350px;
    } 
-
 }
+
+/*
 @media only screen and (min-width:1024px) and (max-width:1116px){
  
   section ul li{
@@ -206,6 +208,8 @@
   }
 
 } 
+
+*/
 
 
 
