@@ -71,7 +71,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     width: 24%;
-    height: 600px;
+    height: 450px;
     margin: 5px 5px 5px 5px;
   }
 
@@ -111,7 +111,7 @@
 
      /* responsive */
 
-@media screen and (max-width:600px){
+@media only screen and (max-width:600px){
   h3{
     font-size: 20px;
   }
@@ -147,62 +147,66 @@
 }
 
 
-@media only screen and (min-width:601px) and (max-width:1024px){
+@media only screen and (min-width:601px) and (max-width:1023px){
   h3{
-    font-size: 20px;
+    font-size: 18px;
   }
   
   p{
-    font-size: 18px;
+    font-size: 16px;
   }
 
   section ul li{
     margin-top: 10px;
     margin-bottom: 10px;
     width:31%;
-    height: 400px;
+    height: 450px;
   }
 
   .grid-floats
   .grid-item:first-child{
     width: 47%;
+    height: 350px;
  }
 
   .grid-floats
   li:nth-child(2){
    width:47%;
+   height: 350px;
   }
 
     .grid-flex
     .grid-item:first-child{
       width:47%;
+      height: 350px;
     }
 
     .grid-flex
     li:nth-child(2){
      width: 47%;
+     height: 350px;
    } 
 
 }
-
-@media screen and (min-width:1024px){
-
+@media only screen and (min-width:1024px) and (max-width:1116px){
+ 
   section ul li{
-    width: 24%;
-    height: 500px;
+   width: 23%;
+   height: 500px;
   }
 
   .grid-floats
   .grid-item:first-child{
-      width: 48%;
+      width: 47%;
   }
 
   .grid-flex
- .grid-item:first-child{
-     width: 48%;
- }
+  .grid-item:first-child{
+     width: 47%;
+  }
 
-}
+} 
+
 
 
 
