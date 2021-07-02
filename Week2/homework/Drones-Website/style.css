@@ -189,27 +189,7 @@
    } 
 }
 
-/*
-@media only screen and (min-width:1024px) and (max-width:1116px){
- 
-  section ul li{
-   width: 23%;
-   height: 500px;
-  }
 
-  .grid-floats
-  .grid-item:first-child{
-      width: 47%;
-  }
-
-  .grid-flex
-  .grid-item:first-child{
-     width: 47%;
-  }
-
-} 
-
-*/
 
 
 
