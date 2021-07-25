@@ -31,6 +31,14 @@ header{
 /* section-2 */
 
 
+#image{
+   height:70px !important; 
+   background-color: white;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
 
 
 
@@ -115,5 +123,5 @@ header{
 /* footer */
 
 .row{
-    background-color:#6b84ac !important;
+    background-color:white !important;
 }
