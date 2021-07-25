@@ -21,10 +21,15 @@ header{
   
 /* section-1*/
 
+.p1{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
 
-
-
-
+.black-text{
+    padding-top: 150px;
+}
 
 
 
@@ -46,8 +51,8 @@ header{
 
 
 .row{
-  display: flex;
-  float: left ;
+  /* display: flex;
+  float: left ; */
   /* border: 1px solid #F3F6F9; */
   background-color: white;
   text-align: center;
@@ -78,8 +83,6 @@ header{
     padding-top: 100px;
 
 }
-
-
 
 .row .col .card .title{
     /* font-size: 40px; */
