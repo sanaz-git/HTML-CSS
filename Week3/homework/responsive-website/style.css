@@ -33,6 +33,7 @@ a{
     font-weight: normal;
     font-size: 15px;
 }
+
   
 /**** section-1 ****/
 h1{ 
@@ -50,9 +51,7 @@ h1{
     padding-top: 100px;
 }
 
-video{
-    padding-left: 100px;
-}
+
 
 
 /* section-2 */
@@ -77,7 +76,7 @@ video{
 
 .row .card{
     background-color:#F3F6F9 ;
-    height: 350px !important;
+    min-height: 100px !important;
     padding-bottom: 50px;
 }
 
@@ -89,7 +88,7 @@ video{
 }
 
 #width{
-    width: 10%;
+    width: 15%;
 }
 
 #padding{
@@ -118,15 +117,15 @@ video{
 
 .topic-1{
     font-size: 45px;
-    padding-right: 280px;
-    padding-left: 280px;
+    padding-right: 25%;
+    padding-left: 25%;
     padding-top: 50px;
 }
 
 .p2{
    text-align: center; 
-   padding-left: 300px;
-   padding-right: 300px;
+   padding-left: 30%;
+   padding-right: 30%;
    font-size: 18px;
    padding-bottom: 10px;
    
@@ -140,17 +139,13 @@ video{
 
 
 
-
 /* section-5 */
 
-#height{
-    min-height: 700px;
-  
-}
 
 .topic-2{
     text-align: left;
     font-size: 19px;
+    background-color: white;
 }
 .p3{
     text-align: left;
@@ -159,8 +154,9 @@ video{
 }  
 .link-2{
  text-align: left;
- 
+ background-color: white;
 }
+
 
 .link-2 a{
     color: #0ABF53 !important;
@@ -170,13 +166,15 @@ video{
 
 .link-3{
     text-align: left;
-    
+    background-color: white;
 }
+
 
 .link-3 a{
     color: #0ABF53 !important;
     padding-top: 10px !important;
 }
+
 
 
 /* section-6-1 */
@@ -227,10 +225,103 @@ h1{
 
 /* section-7 */
 
+.backcolor-3{
+    background-color: #0ABF53;
+    padding-bottom: 30px;
+}
+
+.topic-5{
+    font-size: 40px;
+    padding-right: 18%;
+    padding-left: 18%;
+    padding-top: 30px;
+}
+
+.link .sub-2{
+    background-color: #000000 !important;
+    color: white !important;
+}
+
+
 
 
 /* footer */
+.backcolor-4{
+    background-color: #03132D;
+}
 
-/* .row{
-    background-color:white !important;
-} */
+.topic-6{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.list{
+    font-size: 15px;
+    text-align: left;
+}
+
+.subtopic{
+    color: white;
+    font-size:12px ;
+    padding-bottom: 10px;
+}
+
+
+.backcolor-5{
+    border: 1px solid #6D747A;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+/********* responsive **********/
+@media only screen and (max-width:600px){
+
+.topic-1{
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.p2{
+    font-size: 16px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.topic-5{
+    font-size: 25px;
+    padding-right: 8%;
+    padding-left: 8%;
+   
+}
+
+
+
+}
+
+@media only screen and (min-width:601px) and (max-width:1024px){
+.topic-5{
+    font-size: 30px;
+    padding-right: 8%;
+    padding-left: 8%;
+    
+}
+h1{ 
+    font-weight: 500;
+    font-size:40px;
+}
+
+.p1{
+    text-align: left;
+    font-size: 19px;
+    padding-bottom: 20px;
+   
+}
+
+.black-text{
+    padding-top: 0px;
+}
+
+
+}
+    
