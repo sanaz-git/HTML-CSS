@@ -10,13 +10,26 @@
 
 
 nav {
-    padding: 3px;
-  }
-  
-  .navfix a {
-    font-size: 1.4vw;
-    padding: 0 5px;
-  }
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-extended{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+.nav-extended ul li a{
+    font-size: 80%;
+
+}
+
+
+ 
+.navfix a {
+font-size: 1.4vw;
+padding: 0 5px;
+}
   
 .nav-wrapper a img {
     vertical-align: middle;
@@ -27,13 +40,11 @@ nav {
   }
 
 
-
-
-.text-color{
-    color: black;
-    font-weight: normal;
-    font-size: 15px;
+.fixborder {
+border: 3px solid white;
 }
+
+
 
 
 /**** section-1 ****/
@@ -71,8 +82,7 @@ h1{
 
 .row{
   text-align: center;
-  
- 
+   
 }
 
 .row .card{
@@ -184,6 +194,8 @@ h1{
 .backcolor-2{
     background-color: #03132D;
     color: white;
+    padding-bottom: 30px;
+
 }
 
 
@@ -211,6 +223,7 @@ h1{
 .p5{
     font-size: 15px;
     text-align: left;
+    
 }
 
 .topic-4{
@@ -280,6 +293,18 @@ h1{
 
 /********* responsive **********/
 @media only screen and (max-width:600px){
+.nav-extended{
+    padding-left: 5%;
+    padding-right: 5%;
+}    
+
+.black-text{
+    padding-top: 1px;
+}   
+
+.responsive-video{
+    padding-top: 10px;
+}
 
 .topic-1{
     font-size: 35px;
@@ -287,6 +312,16 @@ h1{
     padding-right: 10%;
     
 }
+
+#padding{
+    padding-top: 30px;
+
+}
+
+#width{
+    width: 10%;
+}
+
 .p2{
     font-size: 16px;
     padding-left: 15%;
@@ -304,6 +339,12 @@ h1{
 }
 
 @media only screen and (min-width:601px) and (max-width:1024px){
+
+.nav-extended{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
 .topic-5{
     font-size: 30px;
     padding-right: 8%;
