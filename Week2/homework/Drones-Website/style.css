@@ -86,7 +86,7 @@
 
 
 
-     /* Flex */
+     /* Foat */
 
  .grid-floats
  .grid-item{
@@ -97,7 +97,7 @@
  .grid-item:first-child{
      width: 47%;
  }
-     /* Float */
+     /* Flex */
 
  .grid-flex{
     display: flex;
